@@ -1,0 +1,17 @@
+# 忽略 SDK、构建产物与运行数据
+.toolchain/
+**/bin/
+**/obj/
+qq-bridge/data/
+*.ks
+bridge.log
+qrcode.png
+qrcode_big.png
+qrcode.url
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# 工具临时输出
+.tmp-tool-results/
